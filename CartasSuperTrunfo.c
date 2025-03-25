@@ -77,10 +77,10 @@ int main() {
         scanf(" %c", &Estado2);
     
         printf("Defina o Código da carta:\n");
-        scanf("%29s", Codigo2);
+        scanf("%s", Codigo2);
     
         printf("Defina o Nome da cidade (Sem colocar espaço em caso de nome composto) da carta:\n");
-        scanf("%29s", nomecidade2);
+        scanf("%s", nomecidade2);
     
         printf("Defina a população da cidade:\n");
         scanf("%d", &populacao2);
